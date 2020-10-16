@@ -13,6 +13,18 @@ body {
     
 }
 
+@media screen and (max-width: 800px) {
+    .top_container {
+        background-color: red;
+    }   
+}
+
+@media screen and (max-width: 500px) {
+    .top_container {
+        background-color: orange;
+    }   
+}
+
 .top_container p {
     position: absolute;
     font-size: 2.4vw;
@@ -90,28 +102,100 @@ h2 {
     font-family: 'Exo 2', sans-serif;
 }
 
+
 .foto {
     display: flex;
     justify-content: center;
     margin-top: 2rem;
     margin-bottom: 0;
+    max-width: 100%;
+    width: 100%;
 }
+
+@media screen and (max-width: 800px) {
+    .foto img {
+        max-width:80%;
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .foto img {
+        max-width:80%;
+        width: 80%;
+        height: auto;
+    }
+}
+
 
 #a {
     margin-top: -5rem;
-    margin-bottom: 3rem;
+    padding-bottom: 0;
+}
+
+#a p {
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1024px) {
+    #a {
+        margin-top: -5rem;
+        padding-bottom: 0;
+    }
+}
+
+.break {
+    background-color: #fff;
+    padding-bottom: 15rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .break {
+    background-color: #fff;
+    margin: 0;
+}
+}
+
+@media screen and (max-width: 800px) {
+    .break {
+    background-color: #fff;
+    padding-bottom: 18rem;
+}
+}
+
+@media screen and (max-width: 600px) {
+    .break {
+    background-color: #fff;
+    padding-bottom: 20rem;
+}
 }
 
 .foto2 {
     display: flex;
     justify-content: center;
-    padding-top: 3rem;
+}
+
+
+@media screen and (max-width: 800px) {
+    .foto2 {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .foto2 {
+    margin-top: 5rem;
+}
 }
 
 #b h2 {
     margin-top: -3rem;
     padding-bottom: 1rem;
 }
+
 
 /* Contact Form */
 
@@ -144,3 +228,5 @@ input[type=text], select, textarea {
     padding: 20px;
     margin-bottom: 2rem;
   }
+
+ 
