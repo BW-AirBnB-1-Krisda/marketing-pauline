@@ -42,16 +42,19 @@ body {
     margin: 0;
 }
 
-#a { background-color: #fff; }
-#b { background-color: #fff; }
-#c { background-color: #fff; }
+
+#a, #b, #c {
+    margin-left: 20%;
+    width: 60%;
+    background-color: #fff;
+}
 
 h2 {
 	margin: 0;
 	padding: 0;
 }
 
-}
+
 .sticky {
 	background-color: #fff;
 	position: -webkit-sticky;
