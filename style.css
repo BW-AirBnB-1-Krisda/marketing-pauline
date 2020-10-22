@@ -66,6 +66,12 @@ body {
     margin: 0;
 }
 
+.section .charts {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
 
 #a, #b, #c {
     margin-left: 20%;
@@ -93,6 +99,14 @@ h2 {
 	padding: 0;
 }
 
+.foot {
+    display: flex;
+    justify-content: center;
+    background-color:#2BBFC2;
+    color: #122D42;
+    font-family: 'Exo 2', sans-serif;
+    padding-top: 1rem;
+}
 
 .sticky {
 	background-color: #fff;
@@ -104,16 +118,6 @@ h2 {
 }
 
 
-.foot {
-    display: flex;
-    justify-content: center;
-    background-color:#2BBFC2;
-    color: #122D42;
-    font-family: 'Exo 2', sans-serif;
-    padding-top: 1rem;
-}
-
-
 .list-inline {
 	list-style: none;
 	margin-left: -0.5em;
@@ -121,7 +125,13 @@ h2 {
     display: flex;
     justify-content: space-around;
     box-sizing: border-box;
+}
 
+.list-inline > li:hover { 
+    border-radius: 2rem;
+    border: solid;
+    color: #2BBFC2;
+    padding: .5rem;  
 }
 
 
@@ -138,31 +148,3 @@ h2 {
        justify-content: space-between;
 }
 
-.list-inline > li:hover { 
-    border-radius: 2rem;
-    border: solid;
-    color: #2BBFC2;
-    padding: .5rem;
-   
-}
-
-label {
-    font-weight: bold;
-    font-size: 16px;
-  }
-  
-  #submit_button {
-    background-color: #B22222;
-    height: 30px;
-    width: 20%;
-    color: #FFFFFF;
-    font-weight: bold;
-  }
-  
-  input, textarea {
-    background-color: #D3D3D3;
-    color: #2F4F4F;
-    width: 250px;
-    margin-bottom: 10px;
-    box-shadow: 5px 5px 2px 2px #696969;
-  }
