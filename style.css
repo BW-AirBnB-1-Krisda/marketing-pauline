@@ -72,6 +72,18 @@ body {
     padding-bottom: 2rem;
 }
 
+.section .moneyup {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+
+.section .reviews {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
 
 #a, #b, #c {
     margin-left: 20%;
