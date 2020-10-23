@@ -149,27 +149,28 @@ h2 {
 
 .break {
     background-color: #fff;
-    padding-bottom: 15rem;
+    padding-bottom: 10rem;
 }
 
 @media screen and (max-width: 1024px) {
     .break {
     background-color: #fff;
     margin: 0;
+    padding-bottom: 2rem;
 }
 }
 
 @media screen and (max-width: 800px) {
     .break {
     background-color: #fff;
-    padding-bottom: 18rem;
+    padding-bottom: 5rem;
 }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .break {
     background-color: #fff;
-    padding-bottom: 20rem;
+    padding-bottom: 8rem;
 }
 }
 
@@ -181,13 +182,13 @@ h2 {
 
 @media screen and (max-width: 800px) {
     .foto2 {
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .foto2 {
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 }
 
