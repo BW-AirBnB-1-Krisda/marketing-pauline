@@ -1,9 +1,4 @@
-body {
-	margin: 0 auto;
-	max-width: 100%;
-	width: 100%;
-}
-
+/* Header */
 
 .top_container {
     background-color: #2BBFC2;
@@ -11,7 +6,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
 .top_container p {
@@ -19,7 +13,6 @@ body {
     font-size: 2.4vw;
     font-family: 'Exo 2', sans-serif;
 }
-
 
 @media screen and (max-width: 1024px) {
     .top_container p {
@@ -60,6 +53,14 @@ body {
     border-style: none;
 }
 
+/* BODY */
+
+body {
+	margin: 0 auto;
+	max-width: 100%;
+	width: 100%;
+}
+
 .section {
 	color: #122D42;
 	height: 75vh;
@@ -96,9 +97,8 @@ body {
 @media screen and (max-width: 1024px) {
     .section .reviews img {
     padding-top: 8rem;
+    }
 }
-}
-
 
 #a, #b, #c {
     margin-left: 20%;
@@ -111,13 +111,13 @@ body {
 @media screen and (max-width: 800px) {
     #a, #b, #c  {
     padding-bottom: 5rem;
-}
+    }
 }
 
 @media screen and (max-width: 500px) {
     #a, #b, #c  {
     padding-bottom: 1rem;
-}
+    }
 }
 
 
@@ -125,6 +125,8 @@ h2 {
 	margin: 0;
 	padding: 0;
 }
+
+/* FOOTER */
 
 .foot {
     display: flex;
@@ -135,7 +137,6 @@ h2 {
     padding-top: 1rem;
     margin-top: 15rem;
 }
-
 
 @media screen and (max-width: 1024px) {
     .foot {
@@ -149,7 +150,7 @@ h2 {
     }
 }
 
-
+/* NAV */
 
 .sticky {
 	background-color: #fff;
@@ -157,9 +158,7 @@ h2 {
 	position: sticky;
     top: 0;
     padding: 2.7rem;
-    
 }
-
 
 .list-inline {
 	list-style: none;
@@ -167,7 +166,6 @@ h2 {
     padding: 0;
     display: flex;
     justify-content: space-around;
-    box-sizing: border-box;
 }
 
 .list-inline > li:hover { 
@@ -176,7 +174,6 @@ h2 {
     color: #2BBFC2;
     padding: .5rem;  
 }
-
 
 .list-inline li a {
     text-decoration: none;
